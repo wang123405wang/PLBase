@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PLBase_Example' do
+  pod 'PLBase', :path => '../'
+
+  target 'PLBase_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
