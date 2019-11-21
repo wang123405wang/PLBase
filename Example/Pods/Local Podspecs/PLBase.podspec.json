@@ -1,0 +1,43 @@
+{
+  "name": "PLBase",
+  "version": "0.1.0",
+  "summary": "A short description of PLBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wang123405wang/PLBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wang123405wang": "17767110597@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wang123405wang/PLBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PLBase/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "SSKeychain": [
+
+    ]
+  }
+}

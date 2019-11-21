@@ -1,0 +1,6 @@
+framework module PLBase {
+  umbrella header "PLBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
