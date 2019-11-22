@@ -6,7 +6,6 @@
 //
 
 #import "UIScrollView+Refresh.h"
-#import "MJRefresh.h"
 
 @implementation UIScrollView (Refresh)
 
