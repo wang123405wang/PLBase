@@ -416,7 +416,7 @@ static NSData *base64_decode(NSString *str){
 
 + (NSString *)getPublikKey{
     
-    NSString *jsonPath = [[NSBundle mainBundle] pathForResource:kPublicKey ofType:@"key"];
+    NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"" ofType:@"key"];
     NSData *data = [NSData dataWithContentsOfFile:jsonPath];
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
