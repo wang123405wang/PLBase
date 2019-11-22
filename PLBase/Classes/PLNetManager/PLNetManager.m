@@ -11,6 +11,6 @@
 
 + (id)submitRequestType:(NSString *)requestType requestPath:(NSString *)requestPath parameters:(NSDictionary *)parameters completionHand:(void(^)(id responseObj, id error))completionHandler
 {
-    
+    return 0;
 }
 @end

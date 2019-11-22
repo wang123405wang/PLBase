@@ -13,8 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (id)submitRequestType:(NSString *)requestType requestPath:(NSString *)requestPath parameters:(NSDictionary *)parameters completionHand:(void(^)(id responseObj, id error))completionHandler;
 
-+ (id)POSTRequestPath:(NSString *)requestPath parameters:(NSDictionary *)parameters constructBodyWithBlock:(void(^)(id formData))constructBodyWithBlock completionHand:(void(^)(id responseObj, id error))completionHandler;
-
 @end
 
 NS_ASSUME_NONNULL_END
