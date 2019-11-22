@@ -9,6 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void (^MJRefreshComponentRefreshingBlock)(void);
+
 @interface UIScrollView (Refresh)
 
 /** 添加头部刷新 */

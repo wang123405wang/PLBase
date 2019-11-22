@@ -21,6 +21,4 @@
 #import "NotificationConst.h"
 #import "PLNetManager.h"
 
-#import "MJRefresh.h"
-
 #endif /* PLBaseCoreDefine_h */
