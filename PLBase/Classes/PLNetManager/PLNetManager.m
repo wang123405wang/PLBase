@@ -21,5 +21,7 @@
 //    [tempDic setObject:@"3" forKey:@"source"];
 //    [tempDic setObject:keyStr forKey:@"sign"];
 //    [tempDic setObject:[StyleHelper getLatestVersionNumber] forKey:@"version"];
+    
+    return 0;
 }
 @end
