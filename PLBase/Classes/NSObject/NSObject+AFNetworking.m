@@ -6,6 +6,7 @@
 //
 
 #import "NSObject+AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 
 @implementation NSObject (AFNetworking)
 

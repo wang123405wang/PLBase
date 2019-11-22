@@ -6,11 +6,20 @@
 //
 
 #import "PLNetManager.h"
+#import "RSA.h"
 
 @implementation PLNetManager
 
 + (id)submitRequestType:(NSString *)requestType requestPath:(NSString *)requestPath parameters:(NSDictionary *)parameters completionHand:(void(^)(id responseObj, id error))completionHandler
 {
-    return 0;
+    //加密模式
+//    NSString *resultPath = [path componentsSeparatedByString:@".com"].lastObject;
+//    NSString *urlPath = [NSString stringWithFormat:@"%@.3.%@", resultPath.uppercaseString, kUSERDEFAULTSGet(@"UUID")];
+//    NSString *keyStr = [StyleHelper encryptionString:urlPath];
+//
+//    NSMutableDictionary *tempDic = [NSMutableDictionary dictionaryWithDictionary:parameters];
+//    [tempDic setObject:@"3" forKey:@"source"];
+//    [tempDic setObject:keyStr forKey:@"sign"];
+//    [tempDic setObject:[StyleHelper getLatestVersionNumber] forKey:@"version"];
 }
 @end

@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MJExtension.h"
 
 @interface NSObject (MJExtension)
 

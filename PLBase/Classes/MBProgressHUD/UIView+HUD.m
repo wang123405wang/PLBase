@@ -6,6 +6,7 @@
 //
 
 #import "UIView+HUD.h"
+#import "MBProgressHUD.h"
 
 //超时
 #define kTimeOut  30

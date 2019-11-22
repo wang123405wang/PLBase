@@ -6,6 +6,7 @@
 //
 
 #import "PLBaseModel.h"
+#import "MJExtension.h"
 
 @implementation PLBaseModel
 MJCodingImplementation

@@ -6,6 +6,7 @@
 //
 
 #import "NSObject+MJExtension.h"
+#import "MJExtension.h"
 
 @implementation NSObject (MJExtension)
 
