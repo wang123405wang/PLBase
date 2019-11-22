@@ -238,7 +238,6 @@
 		BFBF723AA6CB8934029A62CF49D8F0EA /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = F68E31BCF198B893B0885657BE7BB7D3 /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0BE95FDD34EEDE41F116F8C34A3E12B /* PLDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A02CE924F94FF14203715032798F2 /* PLDateHelper.m */; };
 		C1CAE8C855B6146641538EDE13D79CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D30A0D3F7216C09CC7DFD272FF87A0 /* Foundation.framework */; };
-		C21A247C2387C86E0011B06E /* PLNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C21A247A2387B7A00011B06E /* PLNetManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C21A247D2387C8770011B06E /* NotificationConst.h in Headers */ = {isa = PBXBuildFile; fileRef = C21A247123863C800011B06E /* NotificationConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C28BAE1FCDA3AFA70B7FA8F83FC26978 /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F07C82274EC385189FFF2C6F18648FE /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C31470E92B1A691AC3D3D55A127DCBF0 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B57921415A5F981FB79C58A9392AAF /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -741,8 +740,8 @@
 		C1AC3474C4F4E1DC1BB4385F18BBB5F2 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		C21A247123863C800011B06E /* NotificationConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationConst.h; sourceTree = "<group>"; };
 		C21A247223863C800011B06E /* NotificationConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationConst.m; sourceTree = "<group>"; };
-		C21A247A2387B7A00011B06E /* PLNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLNetManager.h; sourceTree = "<group>"; };
-		C21A247B2387B7A00011B06E /* PLNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLNetManager.m; sourceTree = "<group>"; };
+		C21A24812387CE010011B06E /* PLNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PLNetManager.m; path = PLBase/Classes/PLNetManager/PLNetManager.m; sourceTree = "<group>"; };
+		C21A24822387CE020011B06E /* PLNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PLNetManager.h; path = PLBase/Classes/PLNetManager/PLNetManager.h; sourceTree = "<group>"; };
 		C281733BB184657F335C2F7072A0780A /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
 		C2AF72AB2F696397AD3BD77F6E0A39AF /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
 		C391FBC5238A2E3D8525BA0D5421B54E /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
@@ -1532,14 +1531,13 @@
 			path = PLBase/Classes/NotificationConst;
 			sourceTree = "<group>";
 		};
-		C21A24792387B7A00011B06E /* PLNetManager */ = {
+		C21A24802387CDC10011B06E /* PLNetManager */ = {
 			isa = PBXGroup;
 			children = (
-				C21A247A2387B7A00011B06E /* PLNetManager.h */,
-				C21A247B2387B7A00011B06E /* PLNetManager.m */,
+				C21A24822387CE020011B06E /* PLNetManager.h */,
+				C21A24812387CE010011B06E /* PLNetManager.m */,
 			);
 			name = PLNetManager;
-			path = PLBase/Classes/PLNetManager;
 			sourceTree = "<group>";
 		};
 		C8681C5C6734F3B092D7C0481E99E3C7 /* Pods */ = {
@@ -1713,7 +1711,7 @@
 		FB204FAE41646739C8A13847B5EFE6BA /* PLBase */ = {
 			isa = PBXGroup;
 			children = (
-				C21A24792387B7A00011B06E /* PLNetManager */,
+				C21A24802387CDC10011B06E /* PLNetManager */,
 				C21A247023863C800011B06E /* NotificationConst */,
 				62E32FF9826ECAD61B1CDD27E6F2CCC3 /* BaseXIBView */,
 				B806C2B25717D173B09DF046C8F5AA41 /* CALayer */,
@@ -1940,7 +1938,6 @@
 				27CCFBE4D9F9D549AA31E11FBC934487 /* PLBase-umbrella.h in Headers */,
 				C21A247D2387C8770011B06E /* NotificationConst.h in Headers */,
 				26ABDCC54751C8B32E20A4E7EB3E1891 /* PLBaseCoreDefine.h in Headers */,
-				C21A247C2387C86E0011B06E /* PLNetManager.h in Headers */,
 				DC6CB551D73B742C7E08A45ED7F946CA /* PLBaseModel.h in Headers */,
 				CF3986A1B5023E0731BA12E820AFBD8B /* PLCacheHelper.h in Headers */,
 				E1CD205AAB74E668B21941AF20F39428 /* PLDataHelper.h in Headers */,
