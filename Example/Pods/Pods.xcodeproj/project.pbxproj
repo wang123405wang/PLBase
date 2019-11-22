@@ -238,6 +238,8 @@
 		BFBF723AA6CB8934029A62CF49D8F0EA /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = F68E31BCF198B893B0885657BE7BB7D3 /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0BE95FDD34EEDE41F116F8C34A3E12B /* PLDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A02CE924F94FF14203715032798F2 /* PLDateHelper.m */; };
 		C1CAE8C855B6146641538EDE13D79CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D30A0D3F7216C09CC7DFD272FF87A0 /* Foundation.framework */; };
+		C21A247C2387C86E0011B06E /* PLNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C21A247A2387B7A00011B06E /* PLNetManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C21A247D2387C8770011B06E /* NotificationConst.h in Headers */ = {isa = PBXBuildFile; fileRef = C21A247123863C800011B06E /* NotificationConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C28BAE1FCDA3AFA70B7FA8F83FC26978 /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F07C82274EC385189FFF2C6F18648FE /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C31470E92B1A691AC3D3D55A127DCBF0 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B57921415A5F981FB79C58A9392AAF /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3CB510B0F10B08D5876CFA12487B0A5 /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473D91178286A75956257497FF6C976 /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -1936,7 +1938,9 @@
 				836E80A51C4B39C333CA8979DF7194E6 /* NSObject+MJExtension.h in Headers */,
 				C8F40D88C8E2DFA925936719B718BE82 /* NSString+PL.h in Headers */,
 				27CCFBE4D9F9D549AA31E11FBC934487 /* PLBase-umbrella.h in Headers */,
+				C21A247D2387C8770011B06E /* NotificationConst.h in Headers */,
 				26ABDCC54751C8B32E20A4E7EB3E1891 /* PLBaseCoreDefine.h in Headers */,
+				C21A247C2387C86E0011B06E /* PLNetManager.h in Headers */,
 				DC6CB551D73B742C7E08A45ED7F946CA /* PLBaseModel.h in Headers */,
 				CF3986A1B5023E0731BA12E820AFBD8B /* PLCacheHelper.h in Headers */,
 				E1CD205AAB74E668B21941AF20F39428 /* PLDataHelper.h in Headers */,
