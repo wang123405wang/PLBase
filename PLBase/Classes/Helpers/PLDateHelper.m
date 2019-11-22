@@ -289,7 +289,6 @@ static const NSInteger kOneHourSeconds = 3600;
     return [NSString stringWithUTF8String:buf];
 }
 
-
 + (NSString *)getDateStr:(id)date
             showThisYear:(BOOL)showThisYear
 {
@@ -624,7 +623,6 @@ static const NSInteger kOneHourSeconds = 3600;
     NSString *timeSp = [NSString stringWithFormat:@"%ld", (long)[datenow timeIntervalSince1970]];
     
     return timeSp;
-    
 }
 
 @end

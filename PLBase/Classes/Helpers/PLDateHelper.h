@@ -215,8 +215,6 @@ typedef enum : NSUInteger {
  */
 + (NSInteger)getThisYear;
 
-+ (NSDictionary *)sepDate:(id)date;
-
 /**
  获取今年yyyy年MM月dd日,HH:mm:ss
  */
