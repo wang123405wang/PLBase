@@ -25,7 +25,8 @@
         uuid1 = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
         [SSKeychain setPassword:uuid1 forService:bundleIdentifier account:@"uuid"];
     }
-    kUSERDEFAULTSSet(uuid1, @"UUID");
+    [[NSUserDefaults standardUserDefaults] setObject:uuid1 forKey:@"UUID"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 + (NSString *)encryptionString:(NSString *)string

@@ -21,15 +21,4 @@
 #import "NotificationConst.h"
 #import "PLNetManager.h"
 
-#define kPublicKey @"dev_public_key"
-
-//NSUserDefaults
-#define kUSERDEFAULTSGet(keyName) [[NSUserDefaults standardUserDefaults] objectForKey:[NSString stringWithFormat:@"%@",keyName]]
-
-#define kUSERDEFAULTSSet(objcName,keyName) [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%@",objcName] forKey:[NSString stringWithFormat:@"%@",keyName]]
-
-#define kUSERDEFAULTSRemove(keyName) [[NSUserDefaults standardUserDefaults] removeObjectForKey:[NSString stringWithFormat:@"%@",keyName]]
-
-#define kUSERDEFAULTSSync [[NSUserDefaults standardUserDefaults] synchronize]
-
 #endif /* PLBaseCoreDefine_h */
