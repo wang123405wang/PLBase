@@ -8,7 +8,7 @@
 #import "PLDataHelper.h"
 #import "CommonCrypto/CommonDigest.h"
 
-@implementation DataHelper
+@implementation PLDataHelper
 
 + (NSString *)nullToString:(id)string {
     if ([string isEqual:@"NULL"] || [string isKindOfClass:[NSNull class]] || [string isEqual:[NSNull null]] || [string isEqual:NULL] || [[string class] isSubclassOfClass:[NSNull class]] || string == nil || string == NULL || [string isKindOfClass:[NSNull class]] || [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length]==0 || [string isEqualToString:@"<null>"] || [string isEqualToString:@"(null)"]) {
@@ -20,7 +20,7 @@
 
 + (NSString *)stringIsEmpty:(NSString *)value{
     
-    if ([DataHelper isEmpty:value]) {
+    if ([PLDataHelper isEmpty:value]) {
         return @"";
     }
     return value;

@@ -12,7 +12,7 @@ typedef enum : NSUInteger {
     PsdTimeStyleSprit,
 } PsdTimeStyle;
 
-@interface DateHelper : NSObject
+@interface PLDateHelper : NSObject
 
 
 /**

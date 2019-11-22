@@ -500,7 +500,7 @@ static const NSInteger kOneHourSeconds = 3600;
     if ([startTime isKindOfClass:[NSDate class]]) {
         time = startTime;
     } else {
-        time = [DateHelper toDate:startTime hasTimeZone:NO];
+        time = [PLDateHelper toDate:startTime hasTimeZone:NO];
     }
     NSDate *endTime = [NSDate dateWithTimeInterval:2 * 60 * 60 sinceDate:time];
     NSInteger limit = [endTime timeIntervalSinceDate:[NSDate date]];
@@ -543,9 +543,9 @@ static const NSInteger kOneHourSeconds = 3600;
 
 + (int)calcVideoLibItemOverTime:(NSDate *)msgTime
 {
-    NSDate *nowDate = [DateHelper getNowDate];
+    NSDate *nowDate = [PLDateHelper getNowDate];
     
-    int disSec = [DateHelper differSeconds:nowDate other:msgTime];
+    int disSec = [PLDateHelper differSeconds:nowDate other:msgTime];
     
     int days = disSec / (kOneHourSeconds * kOneDayHours);
     
@@ -627,3 +627,4 @@ static const NSInteger kOneHourSeconds = 3600;
     
 }
 
+@end
