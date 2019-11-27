@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PLBase'
-  s.version          = '1.0.5'
+  s.version          = '1.0.7'
   s.summary          = '常用基础文件集成'
 
 # This description is used to generate tags and improve search results.
