@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate+System.h"
-#import "AppDelegate.h"
+#import "PLAppDelegate.h"
 #import <objc/runtime.h>
 
 @implementation AppDelegate (System)
